@@ -23,7 +23,7 @@
 
 
 
-
+        //return type function.
 
         // function sum($x, $y) {
         //     $z = $x + $y;
@@ -39,7 +39,7 @@
 
 
 
-        
+
         //Passing Arguments by Reference
         function add_five(&$value) {
             $value += 5;
