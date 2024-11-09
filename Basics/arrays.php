@@ -17,7 +17,7 @@
         // }
 
 
-        //2d array
+        //2D array
 
         $cars = [
             ["Volvo",22,18],
