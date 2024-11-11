@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="request.php" methos="post" >
+    <form action="request.php" method="post" >
         First Name: <input type="text" name="fname"><br><br>
         Middle Name: <input type="text" name="mname"><br><br>
         Last Name: <input type="text" name="lname"><br><br>
