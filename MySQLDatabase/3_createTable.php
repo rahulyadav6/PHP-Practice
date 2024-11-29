@@ -9,7 +9,7 @@
     if($conn){
         echo "Connection was successfull";
     }else{
-        echo "Failed to connect to database ". $mysqli_error($conn);
+        echo "Failed to connect to database ". mysqli_error($conn);
     }
     $sql = "CREATE TABLE  `employee` (`Sno` INT(6) NOT NULL AUTO_INCREMENT , `Name` VARCHAR(12) NOT NULL , `Salary` INT(10) NOT NULL , PRIMARY KEY (`Sno`))";
 
@@ -17,7 +17,9 @@
     if($result){
         echo "Table is created successfully";
     }else{
-        echo "Failed to created table" . $mysqli_error($conn);
+        die ("Failed to created table" . $mysqli_error($conn));
     }
+
+    
     
 ?>
